@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name ="translucent_background">#00000000</color>
+    <color name ="half_translucent_background">#77000000</color>
+     <color name="white">#FFFFFFFF</color>  
+     <!-- 蓝色详情文字 -->
+    <color name="blueDetailText">#288FD4</color>
+     <color name="orange">#ffefa600</color>
+     <color name="text_color">#000000</color>
+    <color name="text_color_pressed">#ffffff</color>
+     <color name="white_tran">#88FFFFFF</color>  
+    <color name="lightwhite">#BBEEEEEE</color>
+    <color name="black">#FF000000</color>  
+    <color name="lightblack">#404040</color>
+    <color name="darkorange">#55FF8E01</color>
+    <color name="papayawhip">#ffefd5</color> 
+	<color name="lightgray">#d3d3d3</color>
+	<color name="blanchedalmond">#FFEBCD</color>
+	<color name="transparent">#00000000</color>
+	<color name="lightblue">#555599FF</color>
+	<color name="blue">#FF2DB5E4</color>
+	<color name="skyblue">#3399FF</color>
+	<color name="green">#5533FF33</color>
+	<color name="lightgreen">#9900CC00</color>
+	<color name="yellow">#77F99503</color>
+	<color name="backyellow">#FFB400</color>
+	<color name="red">#FFcc0000</color>
+	<color name="lightred">#ed1b8b</color>
+	<color name="purple">#55d033ce</color>		
+	<color name="pink">#24478191</color>
+	<color name="trans_black">#55000000</color>
+	<color name="textColor">#FF7900</color>
+	<color name="fengexian">#99FF7900</color>
+	
+	<color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>  
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>		
+    
+    <color name="gray_font">#FF818181</color>
+    <color name="gray_light">#F9F9F9</color>
+    <color name="gray_text">#99000000</color>
+    <color name="gray_line">#FFE3E3E3</color>
+    <color name="gray">#FFEBEBEB</color>
+    <color name="hot_little">#ffd9ba</color>
+    <color name="white_trans">#33000000</color>
+    <color name="background">#FFFBF0</color>
+    <color name="orenger">#FF7800</color>
+    <color name="setting_on">#FFEEEEEE</color>
+    <color name="setting_text_color">#FF3F9EC8</color>
+    
+    <color name="text_normal">#FF626262</color>
+    <color name="text_light">#FFababab</color>
+    <color name="text_super_light">#FFc0c0c0</color>
+    
+    <color name="blue_title">#FF5C9EFA</color>
+    <color name="blue_light">#FF48a5cc</color>
+    <color name="blue_dark">#FF00aeef</color>
+    <color name="stroke">#FF77d4f6</color>
+    <color name="count_detail">#FFFAFAFA</color>
+    <color name="ligntgreen">#FF4ED62E</color>
+    
+    <color name="holo_purple">#ffaa66cc</color>
+	<color name="holo_purple2">#FF6347</color>
+	
+	<color name="lightBlue">#FFCEE0FC</color>
+	<color name="title_bg">#FF5C9EFA</color>
+    
+</resources>

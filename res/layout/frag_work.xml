@@ -1,0 +1,301 @@
+<LinearLayout 
+	     xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/exam_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@color/white"
+	    android:orientation="vertical"
+	    >
+	    
+    
+       <RelativeLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="0dip"
+           android:layout_weight="7"
+           >
+           
+           <com.kince.rippleview.WhewView
+				android:id="@+id/wv"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:visibility="visible"
+				 />
+           
+           
+           <com.kince.rippleview.WaterWaveView
+		        android:id="@+id/wave_view"
+		        android:layout_width="fill_parent"
+		        android:layout_height="250dip"
+		        android:layout_centerInParent="true"
+		         />
+           
+       </RelativeLayout>
+	    
+	    
+	    
+	    <!--  下边2行  -->
+	   <LinearLayout 
+	       android:layout_width="fill_parent"
+           android:layout_height="0dip"
+           android:layout_weight="3"
+           android:orientation="vertical"
+           android:background="@color/white"
+	       >
+	        <View 
+		        android:layout_height="1dip"
+		        android:layout_width="fill_parent"
+		        android:background="@color/gray"
+		        />
+	        
+	       <LinearLayout 
+		        android:id="@+id/ll_last"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dip"
+		        android:layout_weight="1"
+		        android:orientation="horizontal"
+		        android:gravity="center_vertical"
+		        >
+	        
+	           
+		        <LinearLayout 
+		            android:layout_width="0dip"
+		            android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:layout_margin="5dip"
+		        	android:gravity="center_horizontal"
+		            >
+		            
+			        <RelativeLayout 
+			            android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:layout_margin="5dip"
+			            >
+			            
+			            
+			            <ImageView 
+			                android:id="@+id/iv_message"
+			                android:layout_width="40dip"
+			                android:layout_height="40dip"
+			                />
+			            
+			            <TextView 
+			                android:id="@+id/tv_message"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:textSize="16sp"
+			                android:text="发短信"
+			                android:layout_toRightOf="@id/iv_message"
+			                android:textColor="@color/black"
+			                android:layout_marginLeft="5dip"
+			                android:paddingTop="5dip"
+			                />
+			            
+			            
+			           <TextView 
+			               android:layout_below="@id/tv_message"
+			               android:layout_alignLeft="@id/tv_message"
+			               android:layout_alignBottom="@id/iv_message"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:text="批量短信,免费短信"
+			                android:textSize="10sp"
+			                android:gravity="bottom"
+			                />
+			            
+			            
+			        </RelativeLayout>
+		            
+		        </LinearLayout>   
+	           
+		        <View 
+		        android:layout_height="fill_parent"
+		        android:layout_width="1dip"
+		        android:background="@color/gray"
+		        />
+	        	
+		        <LinearLayout 
+		            android:layout_width="0dip"
+		            android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:layout_margin="5dip"
+		        	android:gravity="center_horizontal"
+		            >
+		            
+			        <RelativeLayout
+			            android:id="@+id/rl_scan" 
+			            android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:layout_margin="5dip"
+			            >
+			            
+			            
+			            <ImageView 
+			                android:id="@+id/iv_scan"
+			                android:layout_width="40dip"
+			                android:layout_height="40dip"
+			                />
+			            
+			            <TextView 
+			                android:id="@+id/tv_scan"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:textSize="16sp"
+			                android:text="把枪扫描"
+			                android:layout_toRightOf="@id/iv_scan"
+			                android:textColor="@color/black"
+			                android:layout_marginLeft="5dip"
+			                android:paddingTop="5dip"
+			                />
+			            
+			            
+			           <TextView 
+			               android:layout_below="@id/tv_scan"
+			               android:layout_alignLeft="@id/tv_scan"
+			               android:layout_alignBottom="@id/iv_scan"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:text="节约时间,一键扫描"
+			                android:textSize="10sp"
+			                android:gravity="bottom"
+			                />
+			            
+			            
+			        </RelativeLayout>
+		            
+		        </LinearLayout>
+	         
+		    </LinearLayout>
+	    
+	       <View 
+		        android:layout_height="1dip"
+		        android:layout_width="fill_parent"
+		        android:background="@color/gray"
+		        />
+	        
+	       <LinearLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dip"
+		        android:layout_weight="1"
+		        android:orientation="horizontal"
+		        android:gravity="center_vertical"
+		        >
+	        
+	           
+		        <LinearLayout 
+		            android:layout_width="0dip"
+		            android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:layout_margin="5dip"
+		        	android:gravity="center_horizontal"
+		            >
+		            
+			        <RelativeLayout 
+			            android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:layout_margin="5dip"
+			            >
+			            
+			            
+			            <ImageView 
+			                android:id="@+id/iv_search"
+			                android:layout_width="40dip"
+			                android:layout_height="40dip"
+			                />
+			            
+			            <TextView 
+			                android:id="@+id/tv_history"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:textSize="16sp"
+			                android:text="历史记录"
+			                android:layout_toRightOf="@id/iv_search"
+			                android:textColor="@color/black"
+			                android:layout_marginLeft="5dip"
+			                android:paddingTop="5dip"
+			                />
+			            
+			           <TextView 
+			               android:layout_below="@id/tv_history"
+			               android:layout_alignLeft="@id/tv_history"
+			               android:layout_alignBottom="@id/iv_search"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:text="批量短信,免费短信"
+			                android:textSize="10sp"
+			                android:gravity="bottom"
+			                />
+			            
+			            
+			        </RelativeLayout>
+		            
+		        </LinearLayout>   
+	           
+		        <View 
+			        android:layout_height="fill_parent"
+			        android:layout_width="1dip"
+			        android:background="@color/gray"
+			        />
+	        	
+		        <LinearLayout 
+		            android:layout_width="0dip"
+		            android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:layout_margin="5dip"
+		        	android:gravity="center_horizontal"
+		            >
+		            
+			        <RelativeLayout 
+			            android:id="@+id/rl_uploadData"
+			            android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:layout_margin="5dip"
+			            >
+			            
+			            
+			            <ImageView 
+			                android:id="@+id/iv_uploadData"
+			                android:layout_width="40dip"
+			                android:layout_height="40dip"
+			                />
+			            
+			            <TextView 
+			                android:id="@+id/tv_uploadData"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:textSize="16sp"
+			                android:text="数据上传"
+			                android:layout_toRightOf="@id/iv_uploadData"
+			                android:textColor="@color/black"
+			                android:layout_marginLeft="5dip"
+			                android:paddingTop="5dip"
+			                />
+			            
+			            
+			           <TextView 
+			               android:layout_below="@id/tv_uploadData"
+			               android:layout_alignLeft="@id/tv_uploadData"
+			               android:layout_alignBottom="@id/iv_uploadData"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:text="数据上传,查看数据"
+			                android:textSize="10sp"
+			                android:gravity="bottom"
+			                />
+			            
+			            
+			        </RelativeLayout>
+		            
+		        </LinearLayout>
+	         
+	    	</LinearLayout>    
+	        
+	       
+	       <View 
+		        android:layout_height="1dip"
+		        android:layout_width="fill_parent"
+		        android:background="@color/gray"
+		        />
+	       
+	   </LinearLayout>
+	  
+</LinearLayout>
